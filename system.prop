@@ -21,3 +21,7 @@ ro.telephony.default_network=7
 
 # GPU producer to CPU consumer not supported
 ro.bq.gpu_to_cpu_unsupported=1
+
+# temp fix for dalvik-cache
+dalvik.vm.dexopt-data-only=1
+
